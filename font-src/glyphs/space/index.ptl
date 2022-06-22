@@ -14,7 +14,7 @@ glyph-block Symbol-Mosaic-NotDef : begin
 		set currentGlyph.glyphRank   (9998)
 
 	create-glyph 'space' ' ' : glyph-proc
-		local df : DivFrame para.diversityI
+		local df : DivFrame para.diversityII
 		set-width df.width
 
 	create-glyph 'markDemoBaseSpace' 0xE00E : glyph-proc
@@ -23,7 +23,7 @@ glyph-block Symbol-Mosaic-NotDef : begin
 		include : df.markSet.plus
 
 	create-glyph 'markBaseSpace' 0xE00D : glyph-proc
-		local df : DivFrame para.diversityI
+		local df : DivFrame para.diversityII
 		set-width df.width
 		include : df.markSet.e
 

@@ -1,3 +1,17 @@
+# Iosevka Aile Code
+
+A quasi‑proportional code font.
+
+Custom version of Iosevka Aile with code ligatures and thin variants.
+
+Mostly configured through variants.design in private-build-plans.toml.
+Thin spaces changed in font-src\glyphs\space\index.ptl.
+
+Basic hinted .ttfs downloadable in [dist\iosevka-aile-code\ttf\\](https://github.com/VulumeCode/Iosevka/tree/custom-aile-code/dist/iosevka-aile-code).
+For building other formats and weights and for customisation, check private-build-plans.toml.
+
+----
+
 # Iosevka ![Version](https://img.shields.io/github/release/be5invis/Iosevka.svg)
 **Iosevka** is an *open-source*, *sans-serif* + *slab-serif*, *monospace* + *quasi‑proportional* typeface family, designed for *writing code*, using in *terminals*, and preparing *technical documents*.
 
